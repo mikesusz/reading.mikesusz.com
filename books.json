@@ -1,0 +1,635 @@
+[
+	{
+		"title": "Death's End  (The Three-Body Problem Series Book 3)",
+		"authors": ["Cixin Liu"],
+		"date": "2025-05-25"
+	},
+  {
+    "title": "Fahrenheit-182: A Humorous and Inspirational Memoir by Mark Hoppus of Blink-182",
+    "authors": ["Mark Hoppus", "Dan Ozzi"],
+    "date": "2025-05-13"
+  },
+  {
+    "title": "The Dark Forest (The Three-Body Problem Series Book 2)",
+    "authors": ["Cixin Liu"],
+    "date": "2025-04-30"
+  },
+  {
+    "title": "Molly Fyde and the Fight for Peace (The Bern Saga Book 4)",
+    "authors": ["Hugh Howey"],
+    "date": "2025-04-27"
+  },
+  {
+    "title": "Can I Say: Living Large, Cheating Death, and Drums, Drums, Drums",
+    "authors": ["Travis Barker", "Gavin Edwards"],
+    "date": "2025-04-04"
+  },
+  {
+    "title": "The Storyteller: Tales of Life and Music—A Memoir of Dreams, Music and Legendary Collaborations",
+    "authors": ["Dave Grohl"],
+    "date": "2025-04-04"
+  },
+  {
+    "title": "Molly Fyde and the Blood of Billions (The Bern Saga Book 3)",
+    "authors": ["Hugh Howey"],
+    "date": "2025-04-08"
+  },
+  {
+    "title": "Me, But Better: The Science and Promise of Personality Change",
+    "authors": ["Olga Khazan"],
+    "date": "2025-03-24"
+  },
+  {
+    "title": "1984",
+    "authors": ["George Orwell"],
+    "date": "2025-01-21"
+  },
+  {
+    "title": "Molly Fyde and the Land of Light (The Bern Saga Book 2)",
+    "authors": ["Hugh Howey"],
+    "date": "2025-01-14"
+  },
+  {
+    "title": "System Collapse: The Murderbot Diaries",
+    "authors": ["Martha Wells"],
+    "date": "2024-12-25"
+  },
+  {
+    "title": "The Murderbot Diaries: All Systems Red, Artificial Condition, Rogue Protocol, Exit Strategy, Network Effect, Fugitive Telemetry",
+    "authors": ["Martha Wells"],
+    "date": "2024-12-25"
+  },
+  {
+    "title": "BZRK Reloaded",
+    "authors": ["Michael Grant"],
+    "date": "2025-01-08"
+  },
+  {
+    "title": "All Systems Red: The Murderbot Diaries",
+    "authors": ["Martha Wells"],
+    "date": "2024-12-23"
+  },
+  {
+    "title": "Molly Fyde and the Parsona Rescue (The Bern Saga Book 1)",
+    "authors": ["Hugh C. Howey"],
+    "date": "2024-12-10"
+  },
+  {
+    "title": "Snowglobe (The Snowglobe Duology Book 1)",
+    "authors": ["Soyoung Park"],
+    "date": "2024-10-24"
+  },
+  {
+    "title": "The Three-Body Problem (The Three-Body Problem Series Book 1)",
+    "authors": ["Cixin Liu"],
+    "date": "2024-10-23"
+  },
+  {
+    "title": "BZRK",
+    "authors": ["Michael Grant"],
+    "date": "2024-10-10"
+  },
+  {
+    "title": "The Last Star: The Final Book of The 5th Wave",
+    "authors": ["Rick Yancey"],
+    "date": "2024-10-01"
+  },
+  {
+    "title": "The Infinite Sea: The Second Book of the 5th Wave",
+    "authors": ["Rick Yancey"],
+    "date": "2024-09-22"
+  },
+  {
+    "title": "The 5th Wave",
+    "authors": ["Rick Yancey"],
+    "date": "2024-09-08"
+  },
+  {
+    "title": "The Shade of the Moon (Life As We Knew It Series Book 4)",
+    "authors": ["Susan Beth Pfeffer"],
+    "date": "2024-08-30"
+  },
+  {
+    "title": "This World We Live In (Life As We Knew It Series Book 3)",
+    "authors": ["Susan Beth Pfeffer"],
+    "date": "2024-08-25"
+  },
+  {
+    "title": "The Dead and the Gone (Life As We Knew It Series Book 2)",
+    "authors": ["Susan Beth Pfeffer"],
+    "date": "2024-08-20"
+  },
+  {
+    "title": "Life as We Knew It (Life As We Knew It Series Book 1)",
+    "authors": ["Susan Beth Pfeffer"],
+    "date": "2024-08-15"
+  },
+  {
+    "title": "Sixty Days and Counting (Science in the Capital Book 3)",
+    "authors": ["Kim Stanley Robinson"],
+    "date": "2024-07-31"
+  },
+  {
+    "title": "Fifty Degrees Below (Science in the Capital Book 2)",
+    "authors": ["Kim Stanley Robinson"],
+    "date": "2024-07-09"
+  },
+  {
+    "title": "Upgrade: A Novel",
+    "authors": ["Blake Crouch"],
+    "date": "2024-06-30"
+  },
+  {
+    "title": "Forty Signs of Rain (Science in the Capital Trilogy, Book 1)",
+    "authors": ["Kim Stanley Robinson"],
+    "date": "2024-06-14"
+  },
+  {
+    "title": "The End of the World Running Club",
+    "authors": ["Adrian J. Walker"],
+    "date": "2024-06-14"
+  },
+  {
+    "title": "MaddAddam (MaddAddam Trilogy, Book 3)",
+    "authors": ["Margaret Atwood"],
+    "date": "2024-06-04"
+  },
+  {
+    "title": "The Year of the Flood (MaddAddam Trilogy, Book 2)",
+    "authors": ["Margaret Atwood"],
+    "date": "2024-05-22"
+  },
+  {
+    "title": "Snow Crash: A Novel",
+    "authors": ["Neal Stephenson"],
+    "date": "2024-04-28"
+  },
+  {
+    "title": "Oryx and Crake (MaddAddam Trilogy, Book 1)",
+    "authors": ["Margaret Atwood"],
+    "date": "2024-05-12"
+  },
+  {
+    "title": "Ready Player One",
+    "authors": ["Ernest Cline"],
+    "date": "2024-04-26"
+  },
+  {
+    "title": "Artemis: A Novel",
+    "authors": ["Andy Weir"],
+    "date": "2024-04-26"
+  },
+  {
+    "title": "Dust: Book Three of the Silo Series",
+    "authors": ["Hugh Howey"],
+    "date": "2024-03-14"
+  },
+  {
+    "title": "Shift: The Inspiration for Silo Season Three",
+    "authors": ["Hugh Howey"],
+    "date": "2024-03-14"
+  },
+  {
+    "title": "Wool: The Inspiration for Silo Seasons One and Two—A Heart-Pounding Thriller of Survival and Betrayal in a Dystopian World of Darkness",
+    "authors": ["Hugh Howey"],
+    "date": "2024-03-14"
+  },
+  {
+    "title": "Blackfish City: A Novel",
+    "authors": ["Sam J. Miller"],
+    "date": "2024-01-29"
+  },
+  {
+    "title": "Feed",
+    "authors": ["M. T. Anderson"],
+    "date": "2024-01-28"
+  },
+  {
+    "title": "The Rig",
+    "authors": ["Joe Ducie"],
+    "date": "2024-01-26"
+  },
+  {
+    "title": "Consider Phlebas (Culture Book 1)",
+    "authors": ["Iain M. Banks"],
+    "date": "2023-12-27"
+  },
+  {
+    "title": "Tomorrow, and Tomorrow, and Tomorrow: A novel",
+    "authors": ["Gabrielle Zevin"],
+    "date": "2023-12-24"
+  },
+  {
+    "title": "The Stone Sky (The Broken Earth Book 3)",
+    "authors": ["N. K. Jemisin"],
+    "date": "2023-11-30"
+  },
+  {
+    "title": "The Glass Hotel: A novel",
+    "authors": ["Emily St. John Mandel"],
+    "date": "2023-11-30"
+  },
+  {
+    "title": "The Obelisk Gate (The Broken Earth Book 2)",
+    "authors": ["N. K. Jemisin"],
+    "date": "2023-11-24"
+  },
+  {
+    "title": "The Singer's Gun (Vintage Contemporaries)",
+    "authors": ["Emily St. John Mandel"],
+    "date": "2023-10-26"
+  },
+  {
+    "title": "Sea of Tranquility: A novel",
+    "authors": ["Emily St. John Mandel"],
+    "date": "2023-10-19"
+  },
+  {
+    "title": "The Fifth Season (The Broken Earth Book 1)",
+    "authors": ["N. K. Jemisin"],
+    "date": "2023-10-19"
+  },
+  {
+    "title": "Seveneves: A Novel",
+    "authors": ["Neal Stephenson"],
+    "date": "2023-09-16"
+  },
+  {
+    "title": "Severance: A Novel",
+    "authors": ["Ling Ma"],
+    "date": "2023-09-13"
+  },
+  {
+    "title": "Afterland",
+    "authors": ["Lauren Beukes"],
+    "date": "2023-08-20"
+  },
+  {
+    "title": "The Book of M: A Novel",
+    "authors": ["Peng Shepherd"],
+    "date": "2023-08-10"
+  },
+  {
+    "title": "I Am Legend",
+    "authors": ["Richard Matheson"],
+    "date": "2023-08-08"
+  },
+  {
+    "title": "The Drowned World: A Novel (50th Anniversary Edition)",
+    "authors": ["J. G. Ballard"],
+    "date": "2023-08-08"
+  },
+  {
+    "title": "Blindness",
+    "authors": ["José Saramago"],
+    "date": "2023-08-08"
+  },
+  {
+    "title": "The Book of Strange New Things: A Novel",
+    "authors": ["Michel Faber"],
+    "date": "2023-08-08"
+  },
+  {
+    "title": "The Girl With All the Gifts",
+    "authors": ["M. R. Carey"],
+    "date": "2023-08-08"
+  },
+  {
+    "title": "A Song for a New Day",
+    "authors": ["Sarah Pinsker"],
+    "date": "2023-05-30"
+  },
+  {
+    "title": "The Road: Pulitzer Prize Winner (Vintage International)",
+    "authors": ["Cormac McCarthy"],
+    "date": "2023-05-28"
+  },
+  {
+    "title": "World War Z: An Oral History of the Zombie War",
+    "authors": ["Max Brooks"],
+    "date": "2023-05-26"
+  },
+  {
+    "title": "Looking for Jake: Stories",
+    "authors": ["China Miéville"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "The Book of Joan: A Novel",
+    "authors": ["Lidia Yuknavitch"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "The Country of Ice Cream Star: A Novel",
+    "authors": ["Sandra Newman"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "California: A Novel",
+    "authors": ["Edan Lepucki"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "The Dog Stars",
+    "authors": ["Peter Heller"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "The City & The City: A Novel",
+    "authors": ["China Miéville"],
+    "date": "2023-05-23"
+  },
+  {
+    "title": "The City of Mirrors: A Novel (Book Three of The Passage Trilogy)",
+    "authors": ["Justin Cronin"],
+    "date": "2023-01-25"
+  },
+  {
+    "title": "The Twelve (Book Two of The Passage Trilogy): A Novel (Book Two of The Passage Trilogy)",
+    "authors": ["Justin Cronin"],
+    "date": "2023-01-25"
+  },
+  {
+    "title": "The Last: A Novel",
+    "authors": ["Hanna Jameson"],
+    "date": "2023-01-20"
+  },
+  {
+    "title": "Embassytown: A Novel",
+    "authors": ["China Mieville"],
+    "date": "2023-01-20"
+  },
+  {
+    "title": "Moon of the Crusted Snow: A Novel",
+    "authors": ["Waubgeshig Rice"],
+    "date": "2023-01-20"
+  },
+  {
+    "title": "Cloud Atlas (20th Anniversary Edition): A Novel",
+    "authors": ["David Mitchell"],
+    "date": "2023-01-12"
+  },
+  {
+    "title": "The Passage: A Novel (Book One of The Passage Trilogy)",
+    "authors": ["Justin Cronin"],
+    "date": "2023-01-12"
+  },
+  {
+    "title": "Termination Shock: A Mind-Expanding Thriller on Climate Change",
+    "authors": ["Neal Stephenson"],
+    "date": "2022-09-05"
+  },
+  {
+    "title": "Station Eleven: A Novel (National Book Award Finalist)",
+    "authors": ["Emily St. John Mandel"],
+    "date": "2022-09-05"
+  },
+  {
+    "title": "Iron Council (Bas-Lag Book 3)",
+    "authors": ["China Miéville"],
+    "date": "2021-11-11"
+  },
+  {
+    "title": "The Scar (Bas-Lag Book 2)",
+    "authors": ["China Miéville"],
+    "date": "2021-11-11"
+  },
+  {
+    "title": "Perdido Street Station (Bas-Lag Book 1)",
+    "authors": ["China Miéville"],
+    "date": "2021-11-06"
+  },
+  {
+    "title": "High-Rise: A Novel",
+    "authors": ["J. G. Ballard"],
+    "date": "2021-11-06"
+  },
+  {
+    "title": "When Gravity Fails (The Budayeen Cycle Book 1)",
+    "authors": ["George Alec Effinger"],
+    "date": "2021-11-06"
+  },
+  {
+    "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer (Bantam Spectra Book)",
+    "authors": ["Neal Stephenson"],
+    "date": "2021-02-19"
+  },
+  {
+    "title": "Agency (The Jackpot Trilogy Book 2)",
+    "authors": ["William Gibson"],
+    "date": "2021-02-07"
+  },
+  {
+    "title": "The Peripheral (The Jackpot Trilogy Book 1)",
+    "authors": ["William Gibson"],
+    "date": "2021-02-07"
+  },
+  {
+    "title": "Mona Lisa Overdrive: A Novel (Sprawl Trilogy Book 3)",
+    "authors": ["William Gibson"],
+    "date": "2021-01-18"
+  },
+  {
+    "title": "Count Zero (Sprawl Trilogy Book 2)",
+    "authors": ["William Gibson"],
+    "date": "2021-01-18"
+  },
+  {
+    "title": "Neuromancer (Sprawl Trilogy Book 1)",
+    "authors": ["William Gibson"],
+    "date": "2021-01-18"
+  },
+  {
+    "title": "The Lost Hero (The Heroes of Olympus, Book 1)",
+    "authors": ["Rick Riordan"],
+    "date": "2020-10-24"
+  },
+  {
+    "title": "Zero History (Blue Ant Book 3)",
+    "authors": ["William Gibson"],
+    "date": "2020-11-08"
+  },
+  {
+    "title": "Spook Country (Blue Ant Book 2)",
+    "authors": ["William Gibson"],
+    "date": "2020-11-08"
+  },
+  {
+    "title": "Pattern Recognition (Blue Ant Book 1)",
+    "authors": ["William Gibson"],
+    "date": "2020-10-29"
+  },
+  {
+    "title": "The Way the World Ends (Warmer collection)",
+    "authors": ["Jess Walter"],
+    "date": "2020-10-11"
+  },
+  {
+    "title": "A Boy and His Dog",
+    "authors": ["Harlan Ellison"],
+    "date": "2020-10-11"
+  },
+  {
+    "title": "A Scanner Darkly",
+    "authors": ["Philip K. Dick"],
+    "date": "2020-10-11"
+  },
+  {
+    "title": "The Martian Chronicles",
+    "authors": ["Ray Bradbury"],
+    "date": "2020-10-11"
+  },
+  {
+    "title": "CyberStorm: An Apocalyptic Thriller",
+    "authors": ["Matthew Mather"],
+    "date": "2020-10-11"
+  },
+  {
+    "title": "Anathem",
+    "authors": ["Neal Stephenson"],
+    "date": "2020-04-23"
+  },
+  {
+    "title": "Adulthood Is a Myth: A Sarah's Scribbles Collection",
+    "authors": ["Sarah Andersen"],
+    "date": "2018-12-27"
+  },
+  {
+    "title": "enough",
+    "authors": ["Patrick Rhone"],
+    "date": "2018-12-27"
+  },
+  {
+    "title": "Mindset: The New Psychology of Success",
+    "authors": ["Carol S. Dweck"],
+    "date": "2018-08-25"
+  },
+  {
+    "title": "Thriving With Social Anxiety: Daily Strategies for Overcoming Anxiety and Building Self-Confidence",
+    "authors": ["Hattie C. Cooper"],
+    "date": "2017-01-13"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "authors": ["Daniel Kahneman"],
+    "date": "2016-05-12"
+  },
+  {
+    "title": "Poke The Box: When Was the Last Time You Did Something for the First Time?",
+    "authors": ["Seth Godin"],
+    "date": "2016-03-04"
+  },
+  {
+    "title": "Antifragile: Things That Gain from Disorder (Incerto Book 3)",
+    "authors": ["Nassim Nicholas Taleb"],
+    "date": "2016-02-28"
+  },
+  {
+    "title": "Childhood’s End (Arthur C. Clarke Collection)",
+    "authors": ["Arthur C. Clarke"],
+    "date": "2015-11-05"
+  },
+  {
+    "title": "GMC: Goal, Motivation, and Conflict",
+    "authors": ["Debra Dixon"],
+    "date": "2015-03-17"
+  },
+  {
+    "title": "10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works--A True Story",
+    "authors": ["Dan Harris"],
+    "date": "2015-02-19"
+  },
+  {
+    "title": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
+    "authors": ["Alan Watts"],
+    "date": "2015-02-11"
+  },
+  {
+    "title": "The Martian: A Novel",
+    "authors": ["Andy Weir"],
+    "date": "2014-12-28"
+  },
+  {
+    "title": "A Supposedly Fun Thing I'll Never Do Again: An Essay (Digital Original)",
+    "authors": ["David Foster Wallace"],
+    "date": "2014-09-22"
+  },
+  {
+    "title": "The Elements of Style",
+    "authors": ["William Strunk"],
+    "date": "2013-11-19"
+  },
+  {
+    "title": "Zombie Spaceship Wasteland: A Book by Patton Oswalt",
+    "authors": ["Patton Oswalt"],
+    "date": "2013-07-15"
+  },
+  {
+    "title": "Practical Object-Oriented Design in Ruby: An Agile Primer (Addison-Wesley Professional Ruby Series)",
+    "authors": ["Sandi Metz"],
+    "date": "2013-04-13"
+  },
+  {
+    "title": "We Are All Weird",
+    "authors": ["Seth Godin"],
+    "date": "2013-03-20"
+  },
+  {
+    "title": "How to Think Like a Great Graphic Designer",
+    "authors": ["Debbie Millman"],
+    "date": "2013-01-07"
+  },
+  {
+    "title": "How Children Succeed: Grit, Curiosity, and the Hidden Power of Character",
+    "authors": ["Paul Tough"],
+    "date": "2012-09-26"
+  },
+  {
+    "title": "It Will Be Exhilarating",
+    "authors": ["Dan Provost", "Tom Gerhardt"],
+    "date": "2012-08-28"
+  },
+  {
+    "title": "1491 (Second Edition): New Revelations of the Americas Before Columbus",
+    "authors": ["Charles C. Mann"],
+    "date": "2012-07-30"
+  },
+  {
+    "title": "1493: Uncovering the New World Columbus Created",
+    "authors": ["Charles C. Mann"],
+    "date": "2012-07-30"
+  },
+  {
+    "title": "The Creative Habit: Learn It and Use It for Life (Learn In and Use It for Life)",
+    "authors": ["Twyla Tharp"],
+    "date": "2012-05-04"
+  },
+  {
+    "title": "The Driver: My Dangerous Pursuit of Speed and Truth in the Outlaw Racing World",
+    "authors": ["Alexander Roy"],
+    "date": "2012-05-01"
+  },
+  {
+    "title": "Content Strategy at Work: Real-world Stories to Strengthen Every Interactive Project",
+    "authors": ["Margot Bloomstein"],
+    "date": "2012-02-29"
+  },
+  {
+    "title": "One Way Forward: The Outsider’s Guide to Fixing the Republic (Kindle Single)",
+    "authors": ["Lawrence Lessig"],
+    "date": "2012-02-26"
+  },
+  {
+    "title": "The Price of Civilization: Reawakening American Virtue and Prosperity",
+    "authors": ["Jeffrey D. Sachs"],
+    "date": "2012-02-25"
+  },
+  {
+    "title": "Steve Jobs",
+    "authors": ["Walter Isaacson"],
+    "date": "2011-11-01"
+  }
+]
+
+
+

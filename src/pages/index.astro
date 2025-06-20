@@ -1,0 +1,58 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+
+import { getCollection } from 'astro:content';
+const books = (await getCollection('books')).sort(
+	(a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+function getSearchLinks(title: string, authors: string) {
+	const encoded = encodeURIComponent(`${title} by ${authors}`);
+	return {
+		bookshop: `https://bookshop.org/books?keywords=${encoded}`,
+		goodreads: `https://www.goodreads.com/search?q=${encoded}`,
+		amazon: `https://www.amazon.com/s?k=${encoded}`
+	};
+}
+
+function formatDate(dateString: string) {
+	const date = new Date(dateString);
+	return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+}
+---
+
+<Layout>
+	<ul>
+		{
+			books
+				.filter((book) => book.data.display !== false)
+				.map((book) => {
+					const authors = book.data.authors.join(', ');
+					const formattedDate = formatDate(book.data.date);
+					const links = getSearchLinks(book.data.title, authors);
+					return (
+						<li>
+							<h2>{book.data.title}</h2>
+							<p>
+								By: {authors}, Read: {formattedDate}
+							</p>
+							<ul>
+								<li>
+									<a href={links.bookshop} target="_blank">
+										Find on Bookshop
+									</a>
+								</li>
+								<li>
+									<a href={links.amazon} target="_blank">
+										Find on Amazon
+									</a>
+								</li>
+							</ul>
+							<hr />
+						</li>
+					);
+				})
+		}
+	</ul>
+</Layout>
