@@ -6,5 +6,5 @@ display: true
 read: false
 ---
 
-looking forward to this one.
+I picked this up mostly so my son (a drummer and huge blink-182 fan) could read it, but I'll eventually get to it also.
 

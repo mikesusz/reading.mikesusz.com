@@ -6,4 +6,4 @@ display: true
 read: false
 ---
 
-i heard the author on a podcast and am looking forward to reading this one!
+I heard the author on a podcast and am looking forward to reading this one! I usually reserve non-fiction for gaps in my reading of fiction series, so I might slot a few other books before I get to it.
