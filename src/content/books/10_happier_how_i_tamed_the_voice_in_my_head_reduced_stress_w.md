@@ -3,6 +3,6 @@ title: "10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Lo
 authors: ["Dan Harris"]
 date: "2015-02-19"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->

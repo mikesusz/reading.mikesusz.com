@@ -14,11 +14,21 @@ files.forEach(file => {
 
   let frontmatter = match[1];
 
-  // Remove any line that starts with 'links:'
-  frontmatter = frontmatter
-    .split('\n')
-    .filter(line => !/^links:/.test(line.trim()))
-    .join('\n');
+  // This is the code block to remove something from frontmatter
+  // frontmatter = frontmatter
+  //   .split('\n')
+  //   .filter(line => !/^links:/.test(line.trim()))
+  //   .join('\n');
+
+  // const newContent = content.replace(
+  //   /^---\n([\s\S]*?)\n---/,
+  //   `---\n${frontmatter}\n---`
+	// );
+
+	// This is the code block to add something to frontmatter
+  if (!/^read:/m.test(frontmatter)) {
+    frontmatter += '\nread: true';
+  }
 
   const newContent = content.replace(
     /^---\n([\s\S]*?)\n---/,
@@ -28,4 +38,4 @@ files.forEach(file => {
   fs.writeFileSync(filePath, newContent, 'utf8');
 });
 
-console.log("Removed 'links:' from frontmatter in books/*.md");
+console.log("Frontmatter updated");

@@ -3,6 +3,6 @@ title: "The Murderbot Diaries: All Systems Red, Artificial Condition, Rogue Prot
 authors: ["Martha Wells"]
 date: "2024-12-25"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->
