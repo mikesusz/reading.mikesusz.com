@@ -3,6 +3,6 @@ title: "Content Strategy at Work: Real-world Stories to Strengthen Every Interac
 authors: ["Margot Bloomstein"]
 date: "2012-02-29"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->

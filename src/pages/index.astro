@@ -1,6 +1,6 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Book from '../components/Book.astro';
 
 import { getCollection } from 'astro:content';
 const books = (await getCollection('books')).sort(
@@ -11,7 +11,6 @@ function getSearchLinks(title: string, authors: string) {
 	const encoded = encodeURIComponent(`${title} by ${authors}`);
 	return {
 		bookshop: `https://bookshop.org/books?keywords=${encoded}`,
-		goodreads: `https://www.goodreads.com/search?q=${encoded}`,
 		amazon: `https://www.amazon.com/s?k=${encoded}`
 	};
 }
@@ -20,39 +19,85 @@ function formatDate(dateString: string) {
 	const date = new Date(dateString);
 	return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
 }
+
+// Split books into read and to-read
+const readBooks = books.filter((book) => book.data.display !== false && book.data.read === true);
+const toReadBooks = books.filter((book) => book.data.display !== false && book.data.read !== true);
 ---
 
+<style>
+	header {
+		padding-bottom: 1em;
+	}
+
+	ul.booklist {
+		padding-left: 0;
+		list-style-type: none;
+	}
+
+	ul.booklist > li > *:not(h2) {
+		margin-left: 2.1em;
+	}
+
+	ul.inline {
+		padding-left: 0;
+		margin-bottom: 0.8em;
+	}
+
+	ul.inline li {
+		display: inline-block;
+		margin-right: 2em;
+	}
+
+	ul.booklist li:last-child hr {
+		display: none;
+	}
+</style>
+
 <Layout>
-	<ul>
-		{
-			books
-				.filter((book) => book.data.display !== false)
-				.map((book) => {
-					const authors = book.data.authors.join(', ');
-					const formattedDate = formatDate(book.data.date);
-					const links = getSearchLinks(book.data.title, authors);
-					return (
-						<li>
-							<h2>{book.data.title}</h2>
-							<p>
-								By: {authors}, Read: {formattedDate}
-							</p>
-							<ul>
-								<li>
-									<a href={links.bookshop} target="_blank">
-										Find on Bookshop
-									</a>
-								</li>
-								<li>
-									<a href={links.amazon} target="_blank">
-										Find on Amazon
-									</a>
-								</li>
-							</ul>
-							<hr />
-						</li>
-					);
-				})
-		}
+	<h1>Mike's Reading List 📚</h1>
+
+	<header>
+		<p>
+			This is my attempt to capture the books that I have read/will read soon. It's currently based
+			soley on my library borrowing history and my Kindle purchases as recorded by Amazon. In the
+			future I will attempt to backfill books from before I owned a kindle.
+		</p>
+
+		<p>
+			As I go forward (and as I have time to backfill) I may also add my thoughts on each book as
+			well. Right now that's a bit of a daunting task since there are quite a few.
+		</p>
+
+		<aside>
+			The outbound links provided to Bookshop and Amazon are searches for that book's title and
+			author, they may not work 100% of the time. I also have no affiliate link or otherwise
+			identifying mechanism &mdash; they are provided as a convenience and I will not profit from
+			this at all.
+		</aside>
+	</header>
+
+	<hr />
+
+	<h2>Coming Up:</h2>
+
+	<aside>Books that I have purchased or borrowed but not finished reading yet.</aside>
+
+	<ul class="booklist">
+		{toReadBooks.map((book) => <Book book={book} />)}
+	</ul>
+
+	<hr />
+
+	<h2>Read:</h2>
+
+	<aside>
+		Books that I have read. Some of them more than once, some several times. Will be listed
+		chronologically with when I borrowed or purchased them in Kindle format (although I may have
+		read the paperback versions long ago)
+	</aside>
+
+	<ul class="booklist">
+		{readBooks.map((book) => <Book book={book} />)}
 	</ul>
 </Layout>

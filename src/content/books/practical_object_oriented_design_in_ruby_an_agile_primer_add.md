@@ -3,6 +3,6 @@ title: "Practical Object-Oriented Design in Ruby: An Agile Primer (Addison-Wesle
 authors: ["Sandi Metz"]
 date: "2013-04-13"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->

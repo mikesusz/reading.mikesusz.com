@@ -3,6 +3,6 @@ title: "Poke The Box: When Was the Last Time You Did Something for the First Tim
 authors: ["Seth Godin"]
 date: "2016-03-04"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->

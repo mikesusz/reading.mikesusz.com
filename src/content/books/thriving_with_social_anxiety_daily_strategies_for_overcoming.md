@@ -3,6 +3,6 @@ title: "Thriving With Social Anxiety: Daily Strategies for Overcoming Anxiety an
 authors: ["Hattie C. Cooper"]
 date: "2017-01-13"
 display: true
+read: true
 ---
 
-<!-- Your comments or review here -->
