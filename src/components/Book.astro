@@ -21,8 +21,8 @@ const formattedDate = formatDate(book.data.date);
 const links = getSearchLinks(book.data.title, authors);
 ---
 
-<li>
-	<h2>📘 {book.data.title}</h2>
+<li class="book">
+	<h3>📘 {book.data.title}</h3>
 	<p>
 		By: {authors}, Acquired: {formattedDate}
 	</p>
@@ -37,3 +37,23 @@ const links = getSearchLinks(book.data.title, authors);
 	<div set:html={book.rendered.html} />
 	<hr />
 </li>
+
+<style lang="css">
+	li.book > *:not(h3):not(hr) {
+		margin-left: 1.6em;
+	}
+
+	ul.inline {
+		padding-left: 0;
+		margin-bottom: 0.8em;
+	}
+
+	ul.inline li {
+		display: inline-block;
+		margin-right: 2em;
+	}
+
+	li.book:last-child hr {
+		display: none;
+	}
+</style>
