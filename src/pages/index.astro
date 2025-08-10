@@ -2,8 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import Book from '../components/Book.astro';
 
-import '../styles/global.css';
-
 import { getCollection } from 'astro:content';
 const books = (await getCollection('books')).sort(
 	(a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
@@ -12,6 +10,25 @@ const books = (await getCollection('books')).sort(
 // Split books into read and to-read
 const readBooks = books.filter((book) => book.data.display !== false && book.data.read === true);
 const toReadBooks = books.filter((book) => book.data.display !== false && book.data.read !== true);
+
+// Calculate some statistics about the books collection
+const yearCounts: Record<string, number> = {};
+books.forEach((book) => {
+	const year = book.data.date.slice(0, 4);
+	yearCounts[year] = (yearCounts[year] || 0) + 1;
+});
+
+const mostBooksYear = Object.entries(yearCounts).reduce(
+	(max, entry) => (entry[1] > max[1] ? entry : max),
+	['', 0]
+)[0];
+
+const averageBooksPerYear = Object.values(yearCounts).length
+	? (
+			Object.values(yearCounts).reduce((sum, count) => sum + count, 0) /
+			Object.values(yearCounts).length
+		).toFixed(2)
+	: 0;
 ---
 
 <Layout>
@@ -19,45 +36,120 @@ const toReadBooks = books.filter((book) => book.data.display !== false && book.d
 
 	<header>
 		<p>
-			This is my attempt to capture the books that I have read/will read soon. It's currently based
-			soley on my library borrowing history and my Kindle purchases as recorded by Amazon. In the
-			future I will attempt to backfill books from before I owned a kindle.
+			This is my attempt to capture the books that I have read or will read soon. It's currently
+			based soley on my library borrowing history and my Kindle purchases as recorded by Amazon. In
+			the future I will attempt to backfill books from before I owned a kindle.
 		</p>
 
 		<p>
-			As I go forward (and as I have time to backfill) I may also add my thoughts on each book as
-			well. Right now that's a bit of a daunting task since there are quite a few.
+			As I go forward I may also add my thoughts on each book as well. Right now that's a bit of a
+			daunting task since there are quite a few.
 		</p>
 
+		<div class="asides">
+			<aside>
+				<h2>Outbound Links</h2>
+				The links provided to Bookshop and Amazon are searches for that book's title and author, they
+				may not work 100% of the time. I also have no affiliate link or otherwise identifying mechanism
+				&mdash; they are provided as a convenience and I will not profit from this at all.
+			</aside>
+
+			<aside class="statistics">
+				<h2>Statistics</h2>
+
+				<dl>
+					<dt>Books Read</dt>
+					<dd>{readBooks.length}</dd>
+					<dt>Books unfinished</dt>
+					<dd>{toReadBooks.length}</dd>
+					<dt>Average books per year</dt>
+					<dd>{averageBooksPerYear}</dd>
+					<dt>Year I read the most books</dt>
+					<dd>{mostBooksYear} ({yearCounts[mostBooksYear]})</dd>
+				</dl>
+				<p>(since i got a kindle in 2012)</p>
+			</aside>
+		</div>
+
+		<hr />
+
+		<h2>Coming Up:</h2>
+
+		<aside>Books that I have purchased or borrowed but not finished reading yet.</aside>
+
+		<ul class="booklist">
+			{toReadBooks.map((book) => <Book {book} />)}
+		</ul>
+
+		<hr />
+
+		<h2>Read:</h2>
+
 		<aside>
-			The outbound links provided to Bookshop and Amazon are searches for that book's title and
-			author, they may not work 100% of the time. I also have no affiliate link or otherwise
-			identifying mechanism &mdash; they are provided as a convenience and I will not profit from
-			this at all.
+			Books that I have read. Some of them more than once, some several times. Will be listed
+			chronologically with when I borrowed or purchased them in Kindle format (although I may have
+			read the paperback versions long ago)
 		</aside>
+
+		<ul class="booklist">
+			{readBooks.map((book) => <Book {book} />)}
+		</ul>
 	</header>
-
-	<hr />
-
-	<h2>Coming Up:</h2>
-
-	<aside>Books that I have purchased or borrowed but not finished reading yet.</aside>
-
-	<ul class="booklist">
-		{toReadBooks.map((book) => <Book {book} />)}
-	</ul>
-
-	<hr />
-
-	<h2>Read:</h2>
-
-	<aside>
-		Books that I have read. Some of them more than once, some several times. Will be listed
-		chronologically with when I borrowed or purchased them in Kindle format (although I may have
-		read the paperback versions long ago)
-	</aside>
-
-	<ul class="booklist">
-		{readBooks.map((book) => <Book {book} />)}
-	</ul>
 </Layout>
+
+<style lang="css">
+	@media all and (min-width: 600px) {
+		.booklist {
+			padding: 0;
+		}
+
+		header .asides {
+			display: flex;
+			gap: 2em;
+			justify-content: space-between;
+			align-items: stretch;
+			& > aside {
+				flex: 1 0;
+			}
+		}
+
+		header aside {
+			font-size: 0.95em;
+		}
+	}
+
+	header {
+		padding-bottom: 1em;
+	}
+
+	header .asides > aside:first-child {
+		flex: 2 1 0;
+	}
+
+	.statistics {
+		flex: 0 0 auto;
+	}
+
+	.statistics dl {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		gap: 0.5em 1em;
+		align-items: center;
+	}
+
+	.statistics dt {
+		text-align: left;
+		font-weight: bold;
+	}
+
+	.statistics dd {
+		margin: 0;
+		text-align: right;
+		white-space: nowrap;
+	}
+
+	ul.booklist {
+		padding-left: 0;
+		list-style-type: none;
+	}
+</style>
