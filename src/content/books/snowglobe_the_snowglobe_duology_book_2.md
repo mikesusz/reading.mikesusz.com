@@ -6,4 +6,4 @@ display: true
 read: false
 ---
 
-Another sequel, and another hold that I didn't expect would come up so quickly. So I'm keeping aside some other books (that I own) to get through this one before the loan is up.
+I wrapped this one up pretty quickly. I ... did not super enjoy it? It was satisfying as it explained some of the 'magical' aspects that I found weird in the first book, but ultimately I didn't really get absorbed and feel good at the end.
