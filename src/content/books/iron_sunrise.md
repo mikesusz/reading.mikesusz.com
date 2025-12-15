@@ -2,8 +2,8 @@
 title: "Iron Sunrise"
 authors: ["Charles Stross"]
 date: "2025-11-04"
-display: false
+display: true
 read: false
 ---
 
-Placeholder for book 2 in the series
+Iron Sunrise is the second book in the trilogy, and the scale of the conflict is much bigger than in Singularity Sky. It's a bit different but I'm enjoying it.
