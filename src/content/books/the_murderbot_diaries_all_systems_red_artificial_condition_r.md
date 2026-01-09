@@ -6,3 +6,4 @@ display: true
 read: true
 ---
 
+After borrowing the first (novella?) from the library, I bought the compendium of the first six books. I absolutely adored this series.
