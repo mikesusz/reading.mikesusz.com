@@ -6,4 +6,4 @@ display: true
 read: false
 ---
 
-While waiting for another hold, moving this one up. It was recommended to me from multiple sources, and it's interesting in different ways from a lot of what I've been reading. This is more about society, dynamics, government, even a bit of predestination? Let's see where it goes.
+I really liked this one. not flash-bang whizz sci-fi, but more an exploration of society, dynamics, government, even a bit of predestination?
