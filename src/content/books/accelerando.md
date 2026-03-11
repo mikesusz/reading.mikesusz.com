@@ -1,9 +1,15 @@
 ---
-title: "Accelerando"
-authors: ["Charles Stross"]
-date: "2026-01-15"
+title: 'Accelerando'
+authors: ['Charles Stross']
+date: '2026-01-15'
 display: true
-read: false
+read: true
 ---
 
-So I had this one wrong - the library lists it as the third book in the Singularity Sky series, but it's in a totally different universe. Just some of the same themes by the same author. Reading it now, will update when I'm done!
+I didn't know this when I started, but I wasn't quite prepared for this book.
+
+It starts out as a vaguely weird, interesting story. But as the timeline progresses (and makes a few leaps ahead) it goes bananas. In a good way.
+
+As soon as I got done reading it, I wanted to start over from the beginning.
+
+I'm still trying to wrap my head around it, and I don't want to spoil anything because I want you to read it also.
