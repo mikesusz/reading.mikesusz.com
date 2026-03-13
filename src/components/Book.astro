@@ -1,6 +1,4 @@
 ---
-import { getEntry, render } from 'astro:content';
-
 const { book } = Astro.props;
 
 function formatDate(dateString: string) {
@@ -11,7 +9,7 @@ function formatDate(dateString: string) {
 function getSearchLinks(title: string, authors: string) {
 	const encoded = encodeURIComponent(`${title} by ${authors}`);
 	return {
-		bookshop: `https://bookshop.org/books?keywords=${encoded}`,
+		bookshop: `https://bookshop.org/beta-search?keywords=${encoded}`,
 		amazon: `https://www.amazon.com/s?k=${encoded}`
 	};
 }
