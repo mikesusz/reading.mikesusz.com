@@ -1,8 +1,9 @@
 ---
-title: "When Gravity Fails (The Budayeen Cycle Book 1)"
-authors: ["George Alec Effinger"]
-date: "2021-11-06"
+title: 'When Gravity Fails'
+authors: ['George Alec Effinger']
+date: '2021-11-06'
 display: true
 read: true
+series: 'Budayeen Cycle'
+bookNumber: 1
 ---
-

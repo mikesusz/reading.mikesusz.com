@@ -1,8 +1,9 @@
 ---
-title: "Molly Fyde and the Blood of Billions (The Bern Saga Book 3)"
-authors: ["Hugh Howey"]
-date: "2025-04-08"
+title: 'Molly Fyde and the Blood of Billions'
+authors: ['Hugh Howey']
+date: '2025-04-08'
 display: true
 read: true
+series: 'The Bern Saga'
+bookNumber: 3
 ---
-

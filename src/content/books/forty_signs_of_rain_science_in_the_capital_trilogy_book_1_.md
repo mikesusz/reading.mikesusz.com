@@ -1,8 +1,9 @@
 ---
-title: "Forty Signs of Rain (Science in the Capital Trilogy, Book 1)"
-authors: ["Kim Stanley Robinson"]
-date: "2024-06-14"
+title: 'Forty Signs of Rain'
+authors: ['Kim Stanley Robinson']
+date: '2024-06-14'
 display: true
 read: true
+series: 'Science in the Capital'
+bookNumber: 1
 ---
-

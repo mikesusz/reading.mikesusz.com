@@ -1,8 +1,9 @@
 ---
-title: "The Fifth Season (The Broken Earth Book 1)"
-authors: ["N. K. Jemisin"]
-date: "2023-10-19"
+title: 'The Fifth Season'
+authors: ['N. K. Jemisin']
+date: '2023-10-19'
 display: true
 read: true
+series: 'The Broken Earth'
+bookNumber: 1
 ---
-

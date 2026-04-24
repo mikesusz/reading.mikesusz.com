@@ -1,8 +1,9 @@
 ---
-title: "The Infinite Sea: The Second Book of the 5th Wave"
-authors: ["Rick Yancey"]
-date: "2024-09-22"
+title: 'The Infinite Sea'
+authors: ['Rick Yancey']
+date: '2024-09-22'
 display: true
 read: true
+series: 'The 5th Wave'
+bookNumber: 2
 ---
-

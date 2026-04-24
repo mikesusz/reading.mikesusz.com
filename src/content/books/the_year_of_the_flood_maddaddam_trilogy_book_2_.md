@@ -1,8 +1,9 @@
 ---
-title: "The Year of the Flood (MaddAddam Trilogy, Book 2)"
-authors: ["Margaret Atwood"]
-date: "2024-05-22"
+title: 'The Year of the Flood'
+authors: ['Margaret Atwood']
+date: '2024-05-22'
 display: true
 read: true
+series: 'MaddAddam Trilogy'
+bookNumber: 2
 ---
-

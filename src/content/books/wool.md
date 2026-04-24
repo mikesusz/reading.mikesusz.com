@@ -1,8 +1,9 @@
 ---
-title: "Wool (The Silo Series Book 1)"
-authors: ["Hugh Howey"]
-date: "2024-03-14"
+title: 'Wool'
+authors: ['Hugh Howey']
+date: '2024-03-14'
 display: true
 read: true
+series: 'The Silo Series'
+bookNumber: 3
 ---
-

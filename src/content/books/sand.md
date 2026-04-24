@@ -1,9 +1,11 @@
 ---
-title: "Sand (Book 1 of 3 in The Sand Chronicles)"
-authors: ["Hugh Howey"]
-date: "2025-06-30"
+title: 'Sand'
+authors: ['Hugh Howey']
+date: '2025-06-30'
 display: true
 read: true
+series: 'The Sand Chronicles'
+bookNumber: 1
 ---
 
 Finished this one pretty quickly. It's an interesting new universe that he's created here. There's a lot of exposition explaining what the characters in the book do, because it's something we can't relate to. That can get a bit weary. But it doesn't hit you with an 'as you know bob' download up front.

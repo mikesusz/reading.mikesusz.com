@@ -21,6 +21,7 @@ const links = getSearchLinks(book.data.title, authors);
 
 <li class="book">
 	<h3>📘 {book.data.title}</h3>
+	{book.data.series && <p>Series: {book.data.series}{book.data.bookNumber && ` #${book.data.bookNumber}`}</p>}
 	<p>
 		By: {authors}, Acquired: {formattedDate}
 	</p>

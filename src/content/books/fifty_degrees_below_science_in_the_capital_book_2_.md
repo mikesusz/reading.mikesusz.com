@@ -1,8 +1,9 @@
 ---
-title: "Fifty Degrees Below (Science in the Capital Book 2)"
-authors: ["Kim Stanley Robinson"]
-date: "2024-07-09"
+title: 'Fifty Degrees Below'
+authors: ['Kim Stanley Robinson']
+date: '2024-07-09'
 display: true
 read: true
+series: 'Science in the Capital'
+bookNumber: 2
 ---
-

@@ -1,0 +1,11 @@
+---
+title: 'Artificial Condition'
+authors: ['Martha Wells']
+date: '2024-12-2'
+display: true
+read: true
+series: 'Murderbot Diaries'
+bookNumber: 2
+---
+
+I purchased books one through six in a compendium and read them as quickly as possible.

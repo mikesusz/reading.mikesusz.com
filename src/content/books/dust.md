@@ -1,8 +1,9 @@
 ---
-title: "Dust (The Silo Series Book 3)"
-authors: ["Hugh Howey"]
-date: "2024-03-14"
+title: 'Dust'
+authors: ['Hugh Howey']
+date: '2024-03-14'
 display: true
 read: true
+series: 'The Silo Series'
+bookNumber: 3
 ---
-
