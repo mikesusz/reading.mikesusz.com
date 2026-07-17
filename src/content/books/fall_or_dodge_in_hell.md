@@ -2,9 +2,9 @@
 authors: ['Neal Stephenson']
 date: '2026-05-20'
 display: true
-read: false
+read: true
 series: ''
 title: 'Fall, or Dodge in Hell'
 ---
 
-This book is meaty. Not in the culinary sense, but there's a lot of it. In typical? Stephenson style, a lot of description of scenes. But it rewards you by making all that relevant later! I'm about 1/3 of the way through.
+This was a long read, but ultimately satisfying. In Stephenson's style, he gets into minute details that absorb you into scenes. If you try to rush it, this can be frustrating. But if you take your time, every bit is interesting and had an emotional journey.
